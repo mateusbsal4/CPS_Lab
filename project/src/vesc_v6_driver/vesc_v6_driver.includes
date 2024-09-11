@@ -1,0 +1,8 @@
+/usr/include
+/usr/include/c++/7
+/usr/x86_64-linux-gnu/include/c++/7/x86_64-linux-gnu
+/opt/ros/melodic/include
+../../devel/include
+src
+include/vesc_v6_driver
+include/

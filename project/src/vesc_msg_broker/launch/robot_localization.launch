@@ -1,0 +1,8 @@
+<launch>
+
+<node pkg="robot_localization" type="ekf_localization_node" name="robot_localization">
+    <rosparam command="load" file="$(find vesc_msg_broker)/param/robot_localization.yaml" />
+</node>
+
+</launch>
+

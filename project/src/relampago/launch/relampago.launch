@@ -1,0 +1,17 @@
+<launch>
+  <group ns="relampago">
+    <node pkg="relampago" name="pid" type="pid" output="screen"/>
+  </group>
+
+  <group ns="relampago">
+    <node pkg="relampago" name="gamepad" type="gamepad" output="screen"/>
+  </group>
+
+  <group ns="relampago">
+    <node pkg="relampago" name="keyboard" type="keyboard" output="screen"/>
+  </group>
+
+  <group ns="relampago">
+    <node pkg="relampago" name="mux" type="mux" output="screen"/>
+  </group>
+</launch>

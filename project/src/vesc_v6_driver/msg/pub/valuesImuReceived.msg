@@ -1,0 +1,17 @@
+float64 roll
+float64 pitch
+float64 yaw
+float64 accX
+float64 accY
+float64 accZ
+float64 gyroX
+float64 gyroY
+float64 gyroZ
+float64 magX
+float64 magY
+float64 magZ
+float64 q0
+float64 q1
+float64 q2
+float64 q3
+uint32 mask
