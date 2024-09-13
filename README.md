@@ -11,12 +11,15 @@ This workspace contains the implementation of the follow-the-gap controller to a
     cd simulator
     ```
 
-2. Build the ROS project using `catkin_make`:
+2. If necessary, remove previous build results with ```rm -rf build ```. Build the ROS project using `catkin_make`:
     ```bash
     catkin_make
     ```
-
-3. Launch the simulator:
+3. Source the ROS workspace:
+    ```bash
+    source devel/setup.bash
+    ```
+4. Launch the simulator:
     ```bash
     roslaunch f110_simulator simulator.launch
     ```
@@ -38,15 +41,19 @@ To run the controller on the F110 car:
     ```bash
     cd project
     ```
-3. Build the ROS project using `catkin_make`:
+3. If necessary, remove previous build results with ```rm -rf build ```. Build the ROS project using `catkin_make`:
     ```bash
     catkin_make
     ```
-4. Run the general car launch:
+4. Source the ROS workspace:
+    ```bash
+    source devel/setup.bash
+    ```
+5. Run the general car launch:
     ```bash
     roslaunch racecar teleop.launch
     ```
-5. Launch the controller package:
+6. Launch the controller package:
     ```bash
     roslaunch relampago relampago.launch
     ```
