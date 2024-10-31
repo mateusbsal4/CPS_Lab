@@ -4,7 +4,7 @@ This repository contains the code for the **Cyber-Physical Systems (CPS) practic
 
 ## Simulator
 
-This workspace contains the implementation of the follow-the-gap controller to autonomously drive the F110 car in simulation. To run the simulation, follow these steps:
+This workspace contains the implementation of the follow-the-gap controller to autonomously drive the F110 car in simulation. Initially, source your ROS installation, e.g. ```source /opt/ros/kinetic/setup.bash``` if you have installed ROS Kinetic. To run the simulation, follow these steps:
 
 1. Navigate to the simulator folder:
     ```bash
@@ -34,7 +34,7 @@ Once the simulation is running:
 
 This workspace contains the implementation of a **PID controller** to autonomously drive a 1:10 scale F110 miniature car equipped with a 2D LiDAR sensor around a race track.
 
-To run the controller on the F110 car:
+Initially, source your ROS installation, e.g. ```source /opt/ros/kinetic/setup.bash``` if you have installed ROS Kinetic. To run the controller on the F110 car:
 
 1. Connect to the vehicle via ssh
 2. Navigate to the project folder:
